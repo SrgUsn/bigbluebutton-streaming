@@ -107,7 +107,7 @@ pm2 restart bbb-streaming
 ```
 
 <br />
-Now, your server can handle the number of concurrent streams you've specified, allowing each meeting to be streamed simultaneously.
+Теперь ваш сервер может обрабатывать количество одновременных потоков, которое вы указали, позволяя каждой встрече транслироваться одновременно.
 
 
 <br /> <br />
@@ -119,19 +119,19 @@ Now, your server can handle the number of concurrent streams you've specified, a
 
 <br />
 
-> 🚨 Note: If you encounter the error shown above, it indicates that your server has reached its limit for concurrent streams.
+> 🚨 Примечание: Если вы столкнулись с ошибкой, показанной выше, это указывает на то, что ваш сервер достиг лимита для одновременных потоков.
 
 <br />
 
-> 💡 Remember: Successful operation of concurrent streaming depends significantly on the capacity of your server. Ensure that your server is capable of handling the number of concurrent streams you've set.
+> 💡 Запомните: Успешная работа одновременной потоковой передачи сильно зависит от мощности вашего сервера. Убедитесь, что ваш сервер способен обрабатывать количество одновременных потоков, которое вы установили.
 
 <br/><br/>
 
 
 
-## 🗑️ Uninstallation
+## 🗑️ Удаление
 
-- Goto `bigbluebutton-streaming/`.
+- Перейдите в каталог `bigbluebutton-streaming/`.
 - run `uninstall.sh`.
 ```bash
 cd bigbluebutton-streaming
@@ -151,9 +151,9 @@ bash uninstall.sh
 </div>
 <br/>
 
-1. 🚨 When you encounter the error above, most likely the BigBlueButton-streaming backend (`bbb-streaming`) is not running. Please follow the steps below to troubleshoot:
+1. 🚨 Когда вы сталкиваетесь с указанной ошибкой, скорее всего, бэкенд BigBlueButton-streaming (bbb-streaming) не запущен. Пожалуйста, следуйте приведенным ниже шагам для устранения неполадок:
 
-    - Execute the command below to check whether `pm2` is present and is running the node application on your BigBlueButton server
+    - Выполните команду, чтобы проверить, присутствует ли pm2 и запущено ли приложение node на вашем сервере BigBlueButton:
 
         ```bash
         pm2 list
@@ -164,13 +164,13 @@ bash uninstall.sh
     </div>
      <br/>
 
-    - If you find bbb-streaming listed above with status not as `online`, you would need to restart `bbb-streaming` by using the following command:
+    - Если вы видите bbb-streaming в списке выше со статусом, отличным от online, вам нужно перезапустить bbb-streaming, используя следующую команду:
 
         ```bash
         pm2 restart bbb-streaming
         ```
 
-    - Now, you would be seeing `bbb-streaming` status as online. 
+    - Теперь вы должны увидить, что статус bbb-streaming отображается как online. 
 
     <div align="center">
       <img alt="bbb-streaming-error" width="90%" src="static/streaming-error-3.png"> 
@@ -179,14 +179,14 @@ bash uninstall.sh
     <br/>
 
 
-2. 🚨 If you encounter other errors, try looking for error logs by running the following command:
+2. 🚨 Если есть еще ошибками, посмотрите журналы ошибок, выполнив следующую команду:
 
       ```bash
       pm2 logs bbb-streaming
       ```
 <br/>
 
-  - If you see error log as below, it means the error message you are seeing typically occurs when trying to use sudo in a script or automated process where no terminal is available to provide the password interactively.
+  - Если вы видите журнал ошибок, как показано ниже, это означает, что сообщение об ошибке, которое вы видите, обычно возникает при попытке использовать sudo в скрипте или автоматизированном процессе, где нет доступного терминала для интерактивного ввода пароля.
 
     <div align="center">
       <img alt="bbb-streaming-error" width="90%" src="static/streaming-error-4.png"> 
