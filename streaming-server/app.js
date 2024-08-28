@@ -99,7 +99,7 @@ class App {
   start() {
     const PORT = 4500;
     this.app.listen(PORT, () => {
-      console.log(`Сервер запущен на порту ${port}`);
+      console.log(`Сервер запущен на порту ${PORT}`);
     });
   }
 }
