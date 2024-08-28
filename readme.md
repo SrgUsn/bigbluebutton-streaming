@@ -1,85 +1,62 @@
-<div align="center">
- <a href="https://higheredlab.com/" target="_blank"> <img alt="bbb-streaming" width="250" src="/static/hel-general-logo.png"> </a>
-</div>
 <h1 align="center">BigBlueButton Streaming</h1>
-<p align="center">BigBlueButton Streaming - Your free, open-source solution to expand your virtual classrooms to thousands of learners globally. Stream live on YouTube, Facebook, Vimeo, or any RTMP server right from BigBlueButton. No more user limit - teach without boundaries.</p>
+<p align="center">BigBlueButton Streaming — ваше бесплатное, открытое решение для расширения ваших виртуальных классов на тысячи учеников по всему миру. Транслируйте живые видео на YouTube, Facebook, Vimeo или любой RTMP-сервер прямо из BigBlueButton. Больше нет ограничений по пользователям — обучайте без границ.</p>
 
 <br /><br/>
 <img style="width: 100%; height: auto;" src="/static/bigbluebutton-streaming.gif" alt="bigbluebutton-streaming" /> <br/><br/>
 
-<p>Embrace a limitless learning experience with BigBlueButton Streaming, the ultimate solution for your expanding educational needs. Developed as a free open-source software extension, BigBlueButton Streaming allows you to extend your virtual classrooms to thousands of learners around the globe.
+<p>Воплотите безграничный образовательный опыт с помощью BigBlueButton Streaming, конечного решения для ваших растущих образовательных потребностей. Разработанное как бесплатное расширение с открытым исходным кодом, BigBlueButton Streaming позволяет расширить ваши виртуальные классы на тысячи учеников по всему миру.
 
-Widely recognized as the leading open-source classroom software, BigBlueButton is trusted by countless educational institutions worldwide. However, with a capacity limit of 100 users per class, larger educational sessions became a challenge – until now.
+Широко признанный как ведущее программное обеспечение для открытых классов, BigBlueButton доверяют многочисленные образовательные учреждения по всему миру. Однако, с ограничением в 100 пользователей на класс, проведение крупных образовательных мероприятий стало проблемой — до сегодняшнего дня.
 
-Introducing BigBlueButton Streaming, your key to conducting large-scale, one-time events or regular oversized classes. Seamlessly stream your virtual classes directly from BigBlueButton to platforms such as YouTube, Facebook, Vimeo, or any RTMP server.
+Представляем BigBlueButton Streaming, ваш ключ к проведению масштабных одноразовых мероприятий или регулярных переполненных занятий. Беспрепятственно транслируйте ваши виртуальные классы прямо из BigBlueButton на такие платформы, как YouTube, Facebook, Vimeo или любой RTMP-сервер.
 
-It's simple to use - enter the RTMP URL and access key, click on "Start Streaming", and voila! Your class is live and can now reach thousands of students concurrently. This intuitive, user-friendly tool breaks boundaries in digital learning, bringing education closer to those who crave it.
+Это просто в использовании — введите URL-адрес RTMP и ключ доступа, нажмите "Начать трансляцию", и вуаля! Ваш класс становится доступен и теперь может охватить тысячи студентов одновременно. Это интуитивно понятный, удобный инструмент разрушает границы в цифровом обучении, приближая образование к тем, кто его жаждет.
 
-Experience this revolutionary extension today. Unleash the full potential of virtual learning with BigBlueButton Streaming, because education should know no boundaries.</p>
+Испытайте это революционное расширение уже сегодня. Раскройте весь потенциал виртуального обучения с помощью BigBlueButton Streaming, потому что образование не должно знать границ.</p>
 
-<br/><br/>
-
-## 🗝️ Unlock Limitless Learning: Key Features of BigBlueButton Streaming
-
-1. 📺 **Live Streaming on Multiple Platforms**: Directly stream your classroom to YouTube, Facebook, Vimeo, or any RTMP server, maximizing your reach and availability for students around the world.
-2. 🎥 **Ease of Streaming:** Begin live streaming your classes simply by entering the RTMP URL and access key, and pressing "Start Streaming."
-3. 🚀 **Large-Scale Class Capacity**: Accommodate thousands of students in a single class, bypassing the original 100 users limit of BigBlueButton.
-4. 🔗 **Compatibility with BigBlueButton**: Works directly within BigBlueButton, the widely-adopted virtual classroom software used by many educational institutions globally.
-5. 🆓 **Open-Source and Free**: BigBlueButton Streaming is an open-source software extension, available to all users at no cost.
 
 <br/><br/>
 
-## 💡 5 Benefits: Amplify Impact with BigBlueButton Streaming
+## 📋 Требования
 
-1. 🌍 **Expanded Reach**: You can now teach thousands of students from various geographical locations simultaneously.
-2. 📱 **Increased Accessibility**: With classes being streamed on popular platforms, students can access lessons from devices they already use in their everyday lives.
-3. 💰 **Cost-Efficiency**: As a free, open-source software, BigBlueButton Streaming allows educational institutions to reduce costs associated with premium virtual classroom tools.
-4. ⏰ **Flexibility and Convenience**: The ability to schedule large classes or one-time events provides flexibility to educators and convenience to learners.
-5. 🧩 **Ease of Integration**: Being an extension of the already popular BigBlueButton, integrating this tool into existing educational frameworks is straightforward and hassle-free.
+Для установки этого программного обеспечения необходимо установить BigBlueButton.
 
-<br/><br/>
+**Минимальные требования к окружающей среде**
 
-## 📋 Requirements
-
-The requirement to install this software is BigBlueButton should be installed.
-
-**Minimum environment requirements**
-
-- The software is compatible with BigBlueButton versions ['2.6.10' '2.6.12' '2.7.0-beta.2']. Please ensure one of these versions is pre-installed.
-- Docker must be installed on the system to manage containerization and deployment of     BigBlueButton.
-- A properly configured and functioning TURN server is necessary for real-time communication and media relay.
-- You should have a user account on your  system configured to execute sudo commands without the requirement to enter a password each time. This is crucial for some installation processes that require administrator-level permissions.
+- Программное обеспечение совместимо с версиями BigBlueButton ['2.6.10', '2.6.12', '2.7.0-beta.2', '2.7.12']. Убедитесь, что одна из этих версий предварительно установлена.
+- Docker должен быть установлен на системе для управления контейнеризацией и развертыванием BigBlueButton.
+- Необходим правильно настроенный и функционирующий TURN-сервер для обеспечения реального времени коммуникации и медиа-ретрансляции.
+- У вас должна быть учетная запись пользователя на вашей системе, настроенная для выполнения команд sudo без необходимости ввода пароля каждый раз. Это важно для некоторых процессов установки, требующих прав администратора.
 
 <br/><br/>
 
 
-## 📦 Installation
+## 📦 Установка
 
-- Clone the repository.
-- Goto `bigbluebutton-streaming/`
-- Run install.sh
+- Клонируйте репозиторий.
+- Перейти в каталог `bigbluebutton-streaming/`
+- Запустите install.sh
+
 ```bash
-git clone https://github.com/AsyncWeb/bigbluebutton-streaming.git
+git clone https://github.com/FullZero5/bigbluebutton-streaming
 
 cd bigbluebutton-streaming
 
 bash install.sh
 ```
 
-> 🚨 Note: install.sh will restart the bigbluebutton server, please make sure there is no meetings running on the server.
+> 🚨 Примечание: install.sh перезапустит сервер bigbluebutton, пожалуйста, убедитесь, что на сервере нет запущенных встреч.
 
-> 💡 Make sure to stop streaming before Ending the BigBlueButton session.
+> 💡 Убедитесь, что остановили трансляцию перед завершением сессии BigBlueButton.
 
-<br/>
-
-[📺 Installation Demo](https://bbb1.asyncweb.io/recording/bigbluebutton-streaming-installation.mp4)
 
 <br/>
 <br/>
 
-## 🔗🔑 Set Default RTMP URL and Access Key
+## 🔗🔑 Установка URL и ключа доступа по умолчанию для RTMP сервера
 
-After successful installation, You can set default streaming server URL and access key by editing the `/usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml` file.
+После установки можно установить URL сервера потоковой передачи по умолчанию и ключ доступа, 
+отредактировав файл `/usr/share/meteor/bundle/programs/server/assets/app/config/settings.yml`.
 
 ```bash
 public:
@@ -89,7 +66,8 @@ public:
     rtmpURL: ''
     streamKey: ''
 ```
-Once you set the rtmp URL and stream key, restart the bigbluebutton html5 client.
+
+После установки URL-адреса rtmp и ключа потока перезапустите клиент html5 bigbluebutton.
 
 ```bash
 sudo systemctl restart bbb-html5
@@ -268,44 +246,24 @@ bash uninstall.sh
     - Run again `bash uninstall.sh` and you should be good to go.
 
 <br />
-
- >  ⚠️ If you still face issues in running streaming, please email us at support@higheredlab.com and we would be happy to help you. 
-
-
 <br /><br />
 
+## 🔎 Как это работает
 
-## 🔎 How it works
+1. 🚀 Приложение Node.js: Приложение Node.js запускает контейнер для потоковой передачи, выступая в роли контроллера для трансляции встреч BigBlueButton.
 
-1. 🚀 **Node.js App:** The Node.js app start streaming container, serving as a controller for streaming BigBlueButton meetings.
+2. 📬 REST API: Приложение предоставляет REST API для получения запросов на начало и остановку потоковой передачи.
 
-2. 📬 **REST API:** The app exposes a REST API to receive requests for starting and stopping streaming.
+3. 🔑 Переменные окружения: Чувствительные данные, такие как URL BigBlueButton, секрет и другие конфигурации, хранятся в переменных окружения, загружаемые из файла .env.
 
-3. 🔑 **Environment Variables:** Sensitive data, such as the BigBlueButton URL, secret, and other configurations, are stored in environment variables loaded from a .env file.
+4. 🔗 Интеграция Puppeteer: Puppeteer используется для запуска headless браузера Chrome, позволяя программно взаимодействовать с пользовательским интерфейсом встречи BigBlueButton.
 
-4. 🔗 **Puppeteer Integration:** Puppeteer is utilized to launch a headless Chrome browser, enabling programmatic interaction with the BigBlueButton meeting UI. 
+5. 🖥️ Виртуальный дисплей: Xvfb создает виртуальный дисплей для Chrome, позволяя ему работать без физического сервера отображения.
 
-5. 🖥️ **Virtual Display:** Xvfb creates a virtual display for Chrome, allowing it to run without a physical display server.
+6. 🤝 Присоединение к встрече: Приложение настраивает Puppeteer для присоединения к встрече BigBlueButton в качестве зрителя с определенными настройками, такими как режим только прослушивания и видимость элементов.
 
-6. 🤝 **Joining the Meeting:** The app configures Puppeteer to join the BigBlueButton meeting as a viewer with specific settings, such as listen-only mode and element visibility.
+7. 📼 Запись экрана: Дочерний процесс вызывает ffmpeg для записи экрана встречи и потоковой передачи его на указанный RTMP-сервер.
 
-7. 📼 **Screen Recording:** A child process invokes ffmpeg to record the meeting screen and stream it to a specified RTMP server.
-
-8. ⏹️ **Stop Streaming**: The app waits for the stop streaming or meeting to end and stops the, streaming, ffmpeg process, finalizing the streaming process.
+8. ⏹️ Остановка потоковой передачи: Приложение ожидает остановки потоковой передачи или завершения встречи и останавливает процесс ffmpeg, завершая процесс потоковой передачи.
 <br /> <br />
 <img alt="bbb-streaming"  src="/static/bigbluebutton-streaming-sequence.png"/>
-
-<br/><br/>
-
-## 🚀 <a href="https://higheredlab.com/bigbluebutton" target="_blank">Stress-free BigBlueButton hosting! Start free Trial</a>
-
-**Save big with our affordable BigBlueButton hosting.**
-
-- Bare metal servers for HD video
-- 40% lower hosting costs
-- Top-rated tech support, 100% uptime
-- Upgrade / cancel anytime
-- 2 weeks free trial; No credit card needed
-
-<a href="https://higheredlab.com/bigbluebutton" target="_blank"><strong>Start Free Trial</strong></a>
-
